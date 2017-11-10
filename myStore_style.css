@@ -1,0 +1,69 @@
+/*********************/
+/* csci110_style.css */
+/*********************/
+
+/* I. Definition of ELEMENT style selectors */
+ html {overflow-y:scroll; height:100%;}
+ body {margin:0;padding:0;height:100%;font-family:Segoe UI;color:#505050}
+ pre, select, option, input, textarea {font-family:Consolas,'Courier New'}
+
+ a:link    {color:#0000ff; text-decoration:underline;}
+ a:visited {color:#0000ff; text-decoration:underline;}
+ a:hover   {color:#ef3030; text-decoration:none;}
+ a:active  {color:#0000ff; text-decoration:underline;}
+
+ h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:3px 0 3px 0;
+  color:#202050;
+  font-size:1.6em;
+  font-weight:bold;
+  line-height:normal;
+ }
+ /* Examples of the CASCADE in CSS */
+ h2 {font-size:1.5em;}
+ h3 {font-size:1.4em;}
+ h4 {font-size:1.3em;}
+ h5 {font-size:1.2em;}
+ h6 {font-size:1.1em;}
+
+/* II. Definition of CLASS style selectors */
+ .bcrumb {padding-bottom:5px;font-size:0.81em;}
+ .bgYellow {background:#ffffa0}
+ .bigPadbigFont {padding:0 8px;font-size:1.55em}
+ .myCourierFont {font-family:Courier New}
+ .myConsolasFont {font-family:Consolas}
+ .errMsg {margin:0;padding:3px 5px;background:yellow;color:red}
+
+ table.tbStyl, table.tbStyl td, table.tbStyl th {
+  border:1px solid #9797a0;border-collapse:collapse;
+ }
+ table.noStyl, table.noStyl td, table.noStyl th {border:0;}
+
+ p {display:block; margin:16px 0 16px 0; padding:0;}
+ p.halfpad {display:block; margin:8px 0 8px 0; padding:0;}
+ p.quarterpad {display:block; margin:4px 0 4px 0; padding:0;}
+ p.nopad {display:block; margin:0; padding:0;}
+
+ .formBtn {
+   margin:5px 0 0 5px;
+   padding:2px 7px 2px 8px;
+   border-radius:5px 3px;
+   font-family:Verdana;
+   font-size:0.85em;
+   font-weight:600;
+   background:#e5e5e5;
+   color:#222222;
+ }
+
+/* III. Definition of ID style selectors */
+ #header {padding:3px 5px;background:#cfffff}
+   /* ===== ACHTUNG!! ===== 
+    * Only one element may use the ID "header," and
+    * this webpage may only have one element using the ID "header"
+    */
+ #leftNav {padding:3px;font-style:italic}
+ #mainBlock {padding:0 5px 9px 5px}
+ #footer {
+  font-family:Verdana;font-style:italic;font-size:0.80em;text-align:center
+ }
