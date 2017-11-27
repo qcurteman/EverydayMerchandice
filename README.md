@@ -1,6 +1,6 @@
 # EverydayMerchandise
 
-Everyday Merchandise: (CSCI 110 online store)
+Everyday Merchandise: (CSCI 110 online store) Spring 2017
 
 Description: 
 - This was a class project that uses mainly PHP, HTML, SQL, and a little bit of javascript.
